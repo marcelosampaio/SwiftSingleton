@@ -12,6 +12,8 @@
 		9CDC8B941DFE2035006F8655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDC8B921DFE2035006F8655 /* Main.storyboard */; };
 		9CDC8B961DFE2035006F8655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDC8B951DFE2035006F8655 /* Assets.xcassets */; };
 		9CDC8B991DFE2035006F8655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDC8B971DFE2035006F8655 /* LaunchScreen.storyboard */; };
+		9CDC8BA11DFE204C006F8655 /* MainSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC8BA01DFE204C006F8655 /* MainSingleton.swift */; };
+		9CDC8BA31DFE2161006F8655 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC8BA21DFE2161006F8655 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9CDC8B951DFE2035006F8655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CDC8B981DFE2035006F8655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CDC8B9A1DFE2035006F8655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CDC8BA01DFE204C006F8655 /* MainSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSingleton.swift; sourceTree = "<group>"; };
+		9CDC8BA21DFE2161006F8655 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				9CDC8B8E1DFE2035006F8655 /* AppDelegate.swift */,
 				9CDC8B901DFE2035006F8655 /* ViewController.swift */,
+				9CDC8BA21DFE2161006F8655 /* SecondViewController.swift */,
 				9CDC8B921DFE2035006F8655 /* Main.storyboard */,
 				9CDC8B951DFE2035006F8655 /* Assets.xcassets */,
 				9CDC8B971DFE2035006F8655 /* LaunchScreen.storyboard */,
 				9CDC8B9A1DFE2035006F8655 /* Info.plist */,
+				9CDC8BA01DFE204C006F8655 /* MainSingleton.swift */,
 			);
 			path = SwiftSingleton;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDC8BA31DFE2161006F8655 /* SecondViewController.swift in Sources */,
+				9CDC8BA11DFE204C006F8655 /* MainSingleton.swift in Sources */,
 				9CDC8B911DFE2035006F8655 /* ViewController.swift in Sources */,
 				9CDC8B8F1DFE2035006F8655 /* AppDelegate.swift in Sources */,
 			);
